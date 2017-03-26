@@ -21,3 +21,15 @@
   font-style: normal;
   font-weight: 600;
   src: url("../fonts/RalewaySemiBold/RalewaySemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewaySemiBold/RalewaySemiBold.woff") format("woff"), url("../fonts/RalewaySemiBold/RalewaySemiBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Vaguely";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Vaguely/VaguelyFatal.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Denistina";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Denistina/Denistina.ttf") format("truetype"); }

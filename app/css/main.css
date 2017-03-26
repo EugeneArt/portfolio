@@ -28,7 +28,7 @@ section,
     font-size: 12px;
     font-weight: 400;
     margin-top: 0px;
-    margin-bottom: 35	px; }
+    margin-bottom: 35px; }
 
 .main_head {
   min-height: 620px;
@@ -59,24 +59,37 @@ section,
   top: 50%;
   position: absolute; }
 
-.logo_container {
-  float: left; }
+.logo_wrapper {
+  display: table;
+  width: 100%;
+  text-align: center; }
+  .logo_wrapper .logo_container {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Vaguely;
+    font-size: 100px; }
+    .logo_wrapper .logo_container h1 {
+      position: relative;
+      z-index: 1;
+      background: white;
+      opacity: 0.3;
+      letter-spacing: 15px; }
+      .logo_wrapper .logo_container h1 span {
+        font-size: 30px;
+        font-family: Denistina;
+        letter-spacing: 3px; }
 
-svg {
-  height: 60px;
-  width: 60px;
-  z-index: 1;
-  position: relative; }
-
-.toggle_menu {
+div.toggle_menu {
   width: 60px;
   height: 60px;
   position: fixed;
   z-index: 100;
   border: none;
   right: 20px;
-  top: 20px; }
-  .toggle_menu span {
+  top: 20px;
+  background-color: #fff;
+  opacity: 0.6; }
+  div.toggle_menu span {
     display: block; }
 
 .sandwich {
@@ -95,7 +108,7 @@ svg {
   top: 0;
   width: 28px;
   height: 3px;
-  background: white;
+  background: #000;
   border: none;
   -webkit-border-radius: 4px 4px 4px 4px;
           border-radius: 4px 4px 4px 4px;
@@ -105,15 +118,12 @@ svg {
   transition: transform 0.5s, top 0.2s, -webkit-transform 0.5s;
   display: block; }
 
-svg path {
-  fill: #e0e0e0; }
-
 .sw-bottom {
   position: relative;
   width: 28px;
   height: 3px;
   top: 6.6px;
-  background: white;
+  background: #000;
   border: none;
   -webkit-border-radius: 4px 4px 4px 4px;
           border-radius: 4px 4px 4px 4px;
@@ -129,7 +139,7 @@ svg path {
   width: 28px;
   height: 3px;
   top: 13.5px;
-  background: white;
+  background: #000;
   border: none;
   -webkit-border-radius: 4px 4px 4px 4px;
           border-radius: 4px 4px 4px 4px;
